@@ -44,8 +44,6 @@ for iteration in range(10):
 #do the sorting
 pageRanksOrdered = pageRanks.takeOrdered(100, key = lambda x: -x[1])
 
-print("LOOK AT HERE LOOK AT HERE LOOK AT HERE LOOK AT HERE LOOK AT HERE")
-
 for(link, rank) in pageRanksOrdered:
         
 	print("Title: %s Rank: %s" % (link, rank))
